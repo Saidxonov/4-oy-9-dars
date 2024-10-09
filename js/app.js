@@ -162,158 +162,174 @@
 //   console.log("Index--> " + i, numbers[i]);
 // }
 
-// alert("Assalomu aleykum!");
-// alert("bu 4-oy 9-dars uyga vazifasi");
-// const answers = [
-//   // Oddiy masalalar
-//   `1.oddiy masala:
-//     let numbers = [1, 2, 3, 4];
-//     console.log(numbers[0]);
-//     console.log(numbers[3]);`,
+alert("Assalomu aleykum!");
+alert("bu 4-oy 9-dars uyga vazifasi");
+const answers = [
+  // Oddiy masalalar
+  `1.oddiy masala:
+    let numbers = [1, 2, 3, 4];
+    console.log(numbers[0]);
+    console.log(numbers[3]);`,
 
-//   `2.oddiy masala:
-//     let number = [0, 1, 2, 3, 4];
-//     number.pop();
-//     number.push("Salom");
-//     console.log(number);`,
+  `2.oddiy masala:
+    let number = [0, 1, 2, 3, 4];
+    number.pop();
+    number.push("Salom");
+    console.log(number);`,
 
-//   `3.oddiy masala:
-//     let fruit = [];
-//     fruit.push("Olma", "Tarvuz", "Shaftoli", "Qovun");
-//     console.log(fruit);`,
+  `3.oddiy masala:
+    let fruit = [];
+    fruit.push("Olma", "Tarvuz", "Shaftoli", "Qovun");
+    console.log(fruit);`,
 
-//   `4.oddiy masala:
-//     let length = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-//     console.log(length.length);`,
+  `4.oddiy masala:
+    let length = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    console.log(length.length);`,
 
-//   `5.oddiy masala:
-//     let numbers = ["Mersedes-Benz", "Bagatata"];
-//     numbers.push("Yangi moshina", "Batta qanaqadur moshinani nomi");
-//     console.log(numbers);`,
+  `5.oddiy masala:
+    let numbers = ["Mersedes-Benz", "Bagatata"];
+    numbers.push("Yangi moshina", "Batta qanaqadur moshinani nomi");
+    console.log(numbers);`,
 
-//   `6.oddiy masala:
-//     let numbers = [0, 1, 2, 3];
-//     numbers.pop();
-//     console.log(numbers);`,
+  `6.oddiy masala:
+    let numbers = [0, 1, 2, 3];
+    numbers.pop();
+    console.log(numbers);`,
 
-//   `7.oddiy masala:
-//     let numbers = [2, 3, 4, 5];
-//     numbers.unshift(0, 1);
-//     console.log(numbers);`,
+  `7.oddiy masala:
+    let numbers = [2, 3, 4, 5];
+    numbers.unshift(0, 1);
+    console.log(numbers);`,
 
-//   `8.oddiy masala:
-//     let numbers = [1, 1, 2, 3, 4];
-//     numbers.shift();
-//     console.log(numbers);`,
+  `8.oddiy masala:
+    let numbers = [1, 1, 2, 3, 4];
+    numbers.shift();
+    console.log(numbers);`,
 
-//   `9.oddiy masala:
-//     let numbers = [1, 2, 3, 4, 5];
-//     for (let i = 0; i < numbers.length; i++) {
-//         console.log(numbers[i]);
-//     }`,
+  `9.oddiy masala:
+    let numbers = [1, 2, 3, 4, 5];
+    for (let i = 0; i < numbers.length; i++) {
+        console.log(numbers[i]);
+    }`,
 
-//   `10.oddiy masala:
-//     let numbers = [1, 2, 3, 4];
-//     if (numbers.length > 0) {
-//         console.log("Mavjud");
-//     } else {
-//         console.log("Mavjud emas");
-//     }`,
+  `10.oddiy masala:
+    let numbers = [1, 2, 3, 4];
+    if (numbers.length > 0) {
+        console.log("Mavjud");
+    } else {
+        console.log("Mavjud emas");
+    }`,
 
-//   // For loop ga oid masalalar
-//   `1.For loop ga oid masalalar:
-//     let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-//     for (let i = 0; i < numbers.length; i++) {
-//         console.log(numbers[i]);
-//     }`,
+  // For loop ga oid masalalar
+  `1.For loop ga oid masalalar:
+    let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    for (let i = 0; i < numbers.length; i++) {
+        console.log(numbers[i]);
+    }`,
 
-//   `2.For loop ga oid masalalar:
-//     let fruits = ["Olma", "Banana", "Ananas", "Apelsin", "Tarvuz"];
-//     for (let i = 0; i < fruits.length; i++) {
-//         console.log(fruits[i]);
-//     }`,
+  `2.For loop ga oid masalalar:
+    let fruits = ["Olma", "Banana", "Ananas", "Apelsin", "Tarvuz"];
+    for (let i = 0; i < fruits.length; i++) {
+        console.log(fruits[i]);
+    }`,
 
-//   `3.For loop ga oid masalalar:
-//     let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//     for (let i = 0; i < numbers.length; i++) {
-//         if (numbers[i] % 2 === 0) {
-//             console.log(numbers[i]);
-//         }
-//     }`,
+  `3.For loop ga oid masalalar:
+    let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 === 0) {
+            console.log(numbers[i]);
+        }
+    }`,
 
-//   `4.For loop ga oid masalalar:
-//     let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//     for (let i = 0; i < numbers.length; i++) {
-//         if (numbers[i] % 2 === 1) {
-//             console.log(numbers[i]);
-//         }
-//     }`,
+  `4.For loop ga oid masalalar:
+    let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 === 1) {
+            console.log(numbers[i]);
+        }
+    }`,
 
-//   `5.For loop ga oid masalalar:
-//     let numbers = [-1, 1, -2, 3, -4, 5, -6, 7, -8, 9, -10];
-//     for (let i = 0; i < numbers.length; i++) {
-//         if (numbers[i] > 0) {
-//             console.log(numbers[i]);
-//         }
-//     }`,
+  `5.For loop ga oid masalalar:
+    let numbers = [-1, 1, -2, 3, -4, 5, -6, 7, -8, 9, -10];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] > 0) {
+            console.log(numbers[i]);
+        }
+    }`,
 
-//   `6.For loop ga oid masalalar:
-//     let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//     for (let i = numbers.length - 1; i >= 0; i--) {
-//         console.log(numbers[i]);
-//     }`,
+  `6.For loop ga oid masalalar:
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    for (let i = numbers.length - 1; i >= 0; i--) {
+        console.log(numbers[i]);
+    }`,
 
-//   `7.For loop ga oid masalalar:
-//     let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-//     let counter = 0;
-//     for (let i = 0; i < numbers.length; i++) {
-//         counter = counter + numbers[i];
-//     }
-//      console.log(counter);`,
-//   `8.For loop ga oid masalalar
-//      let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let sum;
-// for (let i = 0; i < numbers.length; i++) {
-//   sum = numbers[i] * 2;
-//   console.log(sum);
-// }`,
-//   `9.For loop ga oid masalalar:
-// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let min = Math.min(...numbers);
-// console.log("Eng kichik son--> " + min);`,
+  `7.For loop ga oid masalalar:
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    let counter = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        counter = counter + numbers[i];
+    }
+     console.log(counter);`,
+  `8.For loop ga oid masalalar
+     let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let sum;
+for (let i = 0; i < numbers.length; i++) {
+  sum = numbers[i] * 2;
+  console.log(sum);
+}`,
+  `9.For loop ga oid masalalar:
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let min = Math.min(...numbers);
+console.log("Eng kichik son--> " + min);`,
 
-//   `10.For loop ga oid masalalar:
-// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-// let min = Math.min(...numbers);
-// console.log("Eng kichik son--> " + min);`,
+  `10.For loop ga oid masalalar:
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let min = Math.min(...numbers);
+console.log("Eng kichik son--> " + min);`,
 
-//   `11.For loop ga oid masalalar:
-// let numbers = [-1, 1, -2, 3, -4, 5, -6, 7, -8, 9, -10];
-// for (let i = 0; i < numbers.length; i++) {
-//   if (numbers[i] < 0) {
-//     console.log(numbers[i]);
-//   }`,
-// ];
+  `11.For loop ga oid masalalar:
+let numbers = [-1, 1, -2, 3, -4, 5, -6, 7, -8, 9, -10];
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] < 0) {
+    console.log(numbers[i]);
+  }`,
+  `12.For loop ga oid masalalar:
+  let numbers = [1, -2, 3, 4, 5, -6, 7, 8, -9, 10];
+let sum;
+for (let i = 0; i < numbers.length; i++) {
+  sum = numbers[i] * 2;
 
-// let currentIndex = 0;
+  if (numbers[i] > 0) {
+    sum = sum + numbers[i];
+  }
+}
+console.log(sum);`,
+  `14.For oid ga oid masalalar:
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (let i = 0; i < numbers.length; i++) {
+  console.log("Index--> " + i, numbers[i]);
+}`,
+];
 
-// const card = document.querySelector(".card p");
-// const leftArrow = document.querySelector(".left-arrow");
-// const rightArrow = document.querySelector(".right-arrow");
+let currentIndex = 0;
 
-// function updateCard() {
-//   card.textContent = answers[currentIndex];
-// }
+const card = document.querySelector(".card p");
+const leftArrow = document.querySelector(".left-arrow");
+const rightArrow = document.querySelector(".right-arrow");
 
-// leftArrow.addEventListener("click", () => {
-//   currentIndex = currentIndex > 0 ? currentIndex - 1 : answers.length - 1;
-//   updateCard();
-// });
+function updateCard() {
+  card.textContent = answers[currentIndex];
+}
 
-// rightArrow.addEventListener("click", () => {
-//   currentIndex = currentIndex < answers.length - 1 ? currentIndex + 1 : 0;
-//   updateCard();
-// });
+leftArrow.addEventListener("click", () => {
+  currentIndex = currentIndex > 0 ? currentIndex - 1 : answers.length - 1;
+  updateCard();
+});
 
-// // Initially set the card content
-// updateCard();
+rightArrow.addEventListener("click", () => {
+  currentIndex = currentIndex < answers.length - 1 ? currentIndex + 1 : 0;
+  updateCard();
+});
+
+// Initially set the card content
+updateCard();
